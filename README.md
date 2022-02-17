@@ -48,6 +48,21 @@ Downloaded imags are in folder named **DownloadedImagesHere**
 cd DownloadedImagesHere
 dir /s
 ```
+### Documentation ###
+For downloading images , there are many options in ruby. 
+Why I chose ruby gem down instead of open-uri ? 
+
+1. With open-uri
+- File extension not preserved along with download.
+- Downloads files from URLs that come from you
+- File less that 10kb returns StringIO
+
+2. Ruby gem down
+- File extension persevered after download.
+- Downloads files from URLs that come from user.
+- Downloads all size images
+- Saves original file name of downloaded file 
+- Allows to  set max_size which controls file size.
 
 ### License ####
 The code is available as open source under the terms of the MIT License.
