@@ -1,0 +1,20 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.8.0)
+      public_suffix (>= 2.0.2, < 5.0)
+    down (5.2.4)
+      addressable (~> 2.8)
+    public_suffix (4.0.6)
+
+PLATFORMS
+  x64-mingw32
+
+DEPENDENCIES
+  down
+
+RUBY VERSION
+   ruby 2.7.2p137
+
+BUNDLED WITH
+   2.3.7
