@@ -13,11 +13,13 @@ The setups steps expect following tools installed on the system.
 
 ##### 1. Check out the repository
 
-- Create forlder DownloadImagesFromTxt
+- Clone a Git repository
 ```
-cd DownloadImagesFromTxt
 git clone https://github.com/amrutapednekar/DownloadImagesFromTxt.git
-gem install rake
+cd DownloadImagesFromTxt
+```
+- Install required gems
+```
 bundle install
 ```
 
