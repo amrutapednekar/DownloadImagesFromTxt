@@ -48,3 +48,6 @@ Downloaded imags are in folder named **DownloadedImagesHere**
 cd DownloadedImagesHere
 dir /s
 ```
+
+### License ####
+The code is available as open source under the terms of the MIT License.
